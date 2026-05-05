@@ -1,7 +1,10 @@
 return {
   defaults = { lazy = true },
   install = { colorscheme = { "nvchad" } },
-
+git = {
+    -- 0 or a very high number like 3600 (1 hour)
+    timeout = 3600, 
+  },
   ui = {
     icons = {
       ft = "",
